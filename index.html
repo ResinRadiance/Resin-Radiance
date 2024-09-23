@@ -3,30 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resin Radiance</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Resin Radiance - Product Catalog</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to Resin Radiance by Sweta Srivastava</h1>
-        <p>Sustainable resin products handcrafted with care, including keychains, bookmarks, coasters, and festive items.</p>
+        <h1>Resin Radiance</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Product Catalog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Product Catalog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Resin Radiance is a self-made company founded by Sweta Srivastava. We specialize in creating eco-friendly resin products like keychains, bookmarks, coasters, and decorative items for festive and religious occasions. Each item is uniquely handcrafted to reflect a blend of sustainability and art.</p>
+        <section class="catalog" id="products">
+            <h2>Our Products</h2>
+
+            <div class="product" data-name="Bookmark (5.5 inch)" data-price="100">
+                <img src="images/bookmark-small.jpg" alt="Bookmark 5.5 inch">
+                <h3>Bookmark (5.5 inch)</h3>
+                <p>Elegant resin bookmarks - 5.5 inches.</p>
+                <p>Price: ₹100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Bookmark (8 inch)" data-price="150">
+                <img src="images/bookmark-large.jpg" alt="Bookmark 8 inch">
+                <h3>Bookmark (8 inch)</h3>
+                <p>Handcrafted large resin bookmarks - 8 inches.</p>
+                <p>Price: ₹150</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Keychain (Alphabets and Numbers)" data-price="200">
+                <img src="images/keychain-alphabets.jpg" alt="Keychain (Alphabets and Numbers)">
+                <h3>Keychain (Alphabets and Numbers)</h3>
+                <p>Custom resin keychains in alphabet or number shapes.</p>
+                <p>Price: ₹200</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Keychain (Square and Circular)" data-price="180">
+                <img src="images/keychain-square.jpg" alt="Keychain (Square and Circular)">
+                <h3>Keychain (Square and Circular)</h3>
+                <p>Beautiful resin keychains in square and circular designs.</p>
+                <p>Price: ₹180</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Tea Coaster" data-price="250">
+                <img src="images/tea-coaster.jpg" alt="Tea Coaster">
+                <h3>Tea Coaster</h3>
+                <p>Classic resin tea coasters.</p>
+                <p>Price: ₹250 (set of 4)</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Mantra Coaster" data-price="300">
+                <img src="images/mantra-coaster.jpg" alt="Mantra Coaster">
+                <h3>Mantra Coaster</h3>
+                <p>Mantra inscribed resin coasters for spiritual vibes.</p>
+                <p>Price: ₹300</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Om Beads Coaster" data-price="350">
+                <img src="images/om-beads-coaster.jpg" alt="Om Beads Coaster">
+                <h3>Om Beads Coaster</h3>
+                <p>Resin coasters with Om bead designs.</p>
+                <p>Price: ₹350</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Table Top (3 inch)" data-price="400">
+                <img src="images/table-top.jpg" alt="Table Top (3 inch)">
+                <h3>Table Top (3 inch)</h3>
+                <p>Resin table top decorative item.</p>
+                <p>Price: ₹400</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Ganesha Door Stick" data-price="500">
+                <img src="images/ganesha-door-stick.jpg" alt="Ganesha Door Stick">
+                <h3>Ganesha Door Stick</h3>
+                <p>Decorative Ganesha resin door stick.</p>
+                <p>Price: ₹500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Tea Lights Holder (5 inch)" data-price="600">
+                <img src="images/tea-lights-holder.jpg" alt="Tea Lights Holder (5 inch)">
+                <h3>Tea Lights Holder (5 inch)</h3>
+                <p>5-inch resin tea light holders for elegant decor.</p>
+                <p>Price: ₹600</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Tray (14 inch)" data-price="800">
+                <img src="images/tray.jpg" alt="Tray (14 inch)">
+                <h3>Tray (14 inch)</h3>
+                <p>Handcrafted resin tray - 14 inches.</p>
+                <p>Price: ₹800</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Puja Thali (10 inch circular)" data-price="700">
+                <img src="images/puja-thali-large.jpg" alt="Puja Thali (10 inch circular)">
+                <h3>Puja Thali (10 inch circular)</h3>
+                <p>10-inch resin puja thali for festive occasions.</p>
+                <p>Price: ₹700</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Puja Thali (8 inch circular)" data-price="600">
+                <img src="images/puja-thali-small.jpg" alt="Puja Thali (8 inch circular)">
+                <h3>Puja Thali (8 inch circular)</h3>
+                <p>8-inch resin puja thali - perfect for rituals.</p>
+                <p>Price: ₹600</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Mantra Large Coaster (10 inch circular)" data-price="750">
+                <img src="images/mantra-large-coaster.jpg" alt="Mantra Large Coaster (10 inch circular)">
+                <h3>Mantra Large Coaster (10 inch circular)</h3>
+                <p>Large mantra resin coaster - 10 inches.</p>
+                <p>Price: ₹750</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Leaf Bookmark (5.5 inch)" data-price="130">
+                <img src="images/leaf-bookmark.jpg" alt="Leaf Bookmark (5.5 inch)">
+                <h3>Leaf Bookmark (5.5 inch)</h3>
+                <p>Delicate leaf design resin bookmarks - 5.5 inches.</p>
+                <p>Price: ₹130</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: ₹<span id="total-price">0</span></p>
+            <button id="checkout">Checkout</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Resin Radiance</p>
+        <p>&copy; 2024 Resin Art by Sweta Srivastava</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
